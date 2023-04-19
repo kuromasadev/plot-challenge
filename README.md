@@ -2,7 +2,7 @@
  Pymaceuticals, Inc - Technical Report
 by Alberto Ponce
 
-## Background
+## Analysis Background
 
 Cancer is a complex and often devastating disease that affects millions of people worldwide. Among the various forms of cancer, squamous cell carcinoma (SCC) is one of the most commonly occurring types of skin cancer. Pymaceuticals, Inc. is a new pharmaceutical company that specializes in developing anti-cancer medications, and has recently begun screening for potential treatments for SCC.
 
@@ -12,8 +12,26 @@ The following analysis aims to provide a comprehensive overview of the study's f
 
  ## Executive Summary 
 
+![Alt text](charts/Tumor_vol_table.png)
+
+Of the drug regimens, Capumulin placed within the percentage of regimens that produced at least 10 timepoints per patient, as well as being tested in the most patients. The closest competitor within this study was the drug regiment Ramicane.
+
+In terms of tumor volume, Capomulin excelled at keeping the tumor small, almost twice as small as the competitors. The closest competitor within this parameter was also Ramicane. 
+
+In terms of tumor volume and weight, Capomulin seemed to have more control on the tumor size with patients over 18g.
+
+## Study Charts
+
+![Alt text](charts/timpoint_drugreg.png)
+
+![Alt text](charts/mice_gender.png)
 
 
+## Capomulin Charts
+
+![Alt text](charts/Capomulin_tumorvol_timepoint.png)
+
+![Alt text](charts/Capomulin_weight_tumorvol.png)
 
 
 ## Methodology 
@@ -36,6 +54,9 @@ While this analysis is looking at the effectiveness of the drug regimen, it is i
 
 This particular case of Propiva that was over documented raises concerns not about the end result (after timepoint #25, all cleaning options align), but of the tumor growth and metastatic site observations. 
 
+![](charts/g989_tumorvol_timepoint.png)
+
 For example, if we choose option A.2, which is to drop the second duplicated item, the graph documents how the tumor volume actually shrinks before metastasicing. It would be prudent to contact the laboratory techicians to ensure the methodology and results match with the initial intent of the study. 
 
 >**However, the study methodology selected was to drop the duplicated patient, leaving the study with only 248 patients to graph and chart.**
+
